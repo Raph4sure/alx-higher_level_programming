@@ -2,4 +2,4 @@
 # Author -Bamidele Adefolaju
 
 def pow(a, b):
-    eturn (a ** b)
+    return (a ** b)
