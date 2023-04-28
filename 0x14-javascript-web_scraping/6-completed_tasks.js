@@ -12,11 +12,11 @@ request(process.argv[2], function (err, _res, body) {
       const userId = body[i].userId;
       const completed = body[i].completed;
 
-      if (completed && !completedTasksByUsers[userId] {
+      if (completed && !completedTasksByUsers[userId]) {
         completedTasksByusers[userId] = 0;
       }
       if (completed) ++completedTasksByUsers[userId];
     }
     console.log(completedTasksByUsers);
   }
-}};
+});
