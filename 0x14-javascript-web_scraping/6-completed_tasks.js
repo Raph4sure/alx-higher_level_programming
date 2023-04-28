@@ -7,7 +7,7 @@ request(process.argv[2], function (err, _res, body) {
   } else {
     const completedTasksByUsers = {};
     body = JSON.parse(body);
-    
+
     for (let i = 0; i < body.length; ++i) {
       const userId = body[i].userId;
       const completed = body[i].completed;
