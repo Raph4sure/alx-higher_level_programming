@@ -13,7 +13,7 @@ request(process.argv[2], function (err, _res, body) {
       const completed = body[i].completed;
 
       if (completed && !completedTasksByUsers[userId]) {
-        completedTasksByusers[userId] = 0;
+        completedTasksByUsers[userId] = 0;
       }
       if (completed) ++completedTasksByUsers[userId];
     }
